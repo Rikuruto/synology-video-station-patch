@@ -19,6 +19,6 @@
 * 修改hosts方式无效，需要外网vps
 
 1. 在vps中运行release中文件
-2. 在群晖 `ssh` 中cd /
+2. 在群晖 `ssh` 中`cd /var/packages/VideoStation/target/plugins/syno_thetvdb`
 3. `sed -i 's/http:\/\/IP:19999/https:\/\/www\.thetvdb\.com/g' search.php`
 （其中IP为vps的IP）
